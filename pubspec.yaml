@@ -7,12 +7,12 @@ environment:
   sdk: ">=2.14.0 <3.0.0"
 
 dependencies:
-  collection: ^1.15.0
+  collection: ^1.18.0
   quill_delta:
     git:
       url: https://github.com/tony-soft/quill-delta-dart.git
-      ref: 48466333527475d4ccdac56934ed82b5f7574672
+      ref: 682e3f664885e31d707d026363acbf7e52a0025e
 
 dev_dependencies:
-  test: ^1.17.8
-  pedantic: ^1.11.0
+  test: ^1.25.2
+  pedantic: ^1.11.1
