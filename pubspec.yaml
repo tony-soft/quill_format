@@ -1,0 +1,18 @@
+name: quill_format
+description: Simple and expressive format for describing rich-text content created for Quill.js editor.
+version: 1.0.6
+homepage: https://github.com/tony-soft/quill_format
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  collection: ^1.15.0
+  quill_delta:
+    git:
+      url: https://github.com/tony-soft/quill-delta-dart.git
+      ref: 48466333527475d4ccdac56934ed82b5f7574672
+
+dev_dependencies:
+  test: ^1.17.8
+  pedantic: ^1.11.0
